@@ -1,0 +1,748 @@
+/* 
+Joelle and John's Site (Simple)
+Started: January 11, 2013
+Live: Date TBD
+Author: John Edmond Jr.
+*/
+
+/* Global Styles */
+	body  {
+		width: 1000px;
+		margin: 0px auto;
+		background-image: url("../images/Backgrounds/brownstonebackground.jpg");
+		background-repeat: no-repeat;
+		background-color: white;
+	}
+	
+	h1, h2, h3 {
+		margin: 0px, 0px, 0px, 0px;
+		font-family: arial;	
+	}
+
+	p {
+		margin: 10px, 0px, 0px, 0px;
+		font-family: arial;
+	}
+
+
+
+/* Content of WebPage ===================================================================*/
+	div#backGround {
+		position: absolute;
+		width: 2000px;
+		height:1000px;
+		z-index: -5;
+	}
+	
+	div#pageContent {
+		background-color: white;
+	}
+
+/* Page Header and Top Graphic ==========================================================*/	
+	div#topGraphic {
+		width: 1000px;
+		height: 300px;
+		border: solid;
+		border-color: rgb(250,50,150);
+		border-width: 0px 0px 0px 0px;
+		margin: 20px, 0px, 0px, 0px;
+	}
+
+	.large {
+		width: 1000px;
+		height: 300px;
+	}
+
+/* Navigation Bar=======================================================================*/
+	
+	.navBar1 {
+		float: left;
+		height: 50px;
+		width: 250px;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: 0px 0px;	
+	}
+	
+	.navBar1:hover {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -250px 0px;
+	}	
+
+	.navBar1:active {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -500px 0px;
+	}	
+	
+	.navBar2 {
+		float: left;
+		height: 50px;
+		width: 250px;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: 0px -50px;	
+	}
+	
+	.navBar2:hover {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -250px -50px;
+	}	
+
+	.navBar2:active {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -500px -50px;
+	}	
+
+	.navBar3 {
+		float: left;
+		height: 50px;
+		width: 250px;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: 0px -100px;	
+	}
+	
+	.navBar3:hover {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -250px -100px;
+	}	
+
+	.navBar3:active {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -500px -100px;
+	}	
+
+	.navBar4 {
+		float: left;
+		height: 50px;
+		width: 250px;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: 0px -150px;	
+	}
+	
+	.navBar4:hover {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -250px -150px;
+	}	
+
+	.navBar4:active {
+		float: left;
+		background-image: url("../images/navbar_sprite.jpg");
+		background-position: -500px -150px;
+	}	
+
+/* Opening Welcome Copy=============================================================*/
+	div#openingBlurb {
+		float: top;
+		height: 120px;
+		border: solid;
+		border-color: rgb(250,50,150);
+		border-width: 25px 0px 0px 0px;
+		color: black;
+		background-color: white;
+	}
+
+	p.blurb {
+		font-weight: bold;
+		font-family: helvetica;
+		font-size: 24px;
+		text-align: center;	
+		padding: 10px 0px 0px 0px;
+		line-height: 1.1em;
+	}
+
+/* Blogging Section===================================================================*/
+	div#blogSection {
+		float: left;
+		border: 5px solid;		
+		font-size:15px;
+		width: 550px;
+		padding: 16px;
+		margin: 0px 0px 0px 0px;
+		background-color: rgb(240,240,240);
+		border-color: rgb(50,50,50);
+		}
+	
+	h1.blogHeader {
+		font-size: 22px;
+		font-weight: bold;
+		font-style: oblique;
+		margin: 0px 0px 0px 0px;
+		line-height: 1.1em;
+		color: white;
+		background-color: rgb(250,100,150);		
+	}
+	
+	h2.blogHeader {
+		font-weight: bold;
+		font-style: oblique;
+		font-size: 25px;
+		margin: 0px 0px 0px 0px;
+		line-height: 1.1em;
+		color: rgb(20,150,50);
+	}
+	
+	p.blogParagraph {
+		margin: 3px 0px 0px 0px;
+		padding: 12px;
+		background-color: rgb(200,200,200);				
+	}
+
+	img.blogPic {
+		float: left 
+		display: inline;
+		width: 546px;
+		height: 150px;
+		border: 2px solid;
+		margin: 5px 10px 0px 0px;
+	}
+
+/* Picture Galleries============================================================*/		
+	h1.contentHeader {
+		color: white;
+		font-size: 25px;
+		padding: 20px 0px 12px 43px;
+		margin: 0px 0px 0px 0px;
+	}
+	
+	div#picGallery {
+		position: relative;
+		float: left;
+		left: 25px;
+		width: 383px;
+		height: 1410px;
+		border-color: white;
+		background-color: rgb(50,50,50);
+		margin: 0px 0px 0px 0px;
+	}
+	
+	
+	a.gallery {
+		height: 200px;
+		display: inline-block;
+		border: solid;
+		border-color: white;
+		border-width: 2px;
+		margin: 10px 0px 5px 15px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-repeat: no-repeat;	
+	}
+	
+	a#galleryButton1 {
+		width: 350px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px 0px;		
+	}
+	
+	a#galleryButton1:hover {
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -210px;		
+	}
+	
+	a#galleryButton2 {
+		width: 350px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -420px;		
+	}
+	
+	a#galleryButton2:hover {
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -630px;		
+	}
+	
+	a#galleryButton3 {
+		width: 350px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -840px;		
+	}
+	
+	a#galleryButton3:hover {
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -1050px;		
+	}
+	
+	a#galleryButton4 {
+		width: 350px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -1260px;		
+	}
+	
+	a#galleryButton4:hover {
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -1470px;		
+	}
+	
+	a#galleryButton5 {
+		width: 350px;
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -1680px;		
+		background-repeat: no-repeat;
+	}
+	
+	a#galleryButton5:hover {
+		background-image: url("../images/Gallery_Sprites.jpg");
+		background-position: 0px -1890px;		
+		background-repeat: no-repeat;	
+	}
+	
+	h2.galleryCaption1 {
+		margin: 0px 0px 20px 62px;
+		font-size: 19px;
+		color: white;
+	}
+	
+	h2.galleryCaption2 {
+		margin: 0px 0px 20px 49px;
+		font-size: 19px;
+		color: white;
+	}
+	
+	h2.galleryCaption3 {
+		margin: 0px 0px 20px 54px;
+		font-size: 19px;
+		color: white;
+	}
+	
+	h2.galleryCaption4 {
+		margin: 0px 0px 20px 69px;
+		font-size: 19px;
+		color: white;
+	}
+	
+	h2.galleryCaption5 {
+		margin: 0px 0px 20px 122px;
+		font-size: 19px;
+		color: white;
+	}
+	
+/* Footer */		
+	div#footer {
+		position: relative;
+		float: left;
+		width: 1000px;
+		height: 75px;
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		background-color: rgb(50,50,50);
+	}
+	
+	p.footerCopy {
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		color: white;
+	}
+	
+	
+/* Media Page Specific CSS Code =============================================== */
+	#photoColumn h1 {
+		margin: 0px 0px 0px 0px;
+		font-style: normal;
+		font-family: georgia;
+		color: white;
+		padding: 15px 0px 0px 95px;
+	}
+
+	#videoColumn h1 {
+		margin: 0px 0px 0px 0px;
+		font-style: normal;
+		font-family: georgia;
+		color: white;
+		padding: 15px 0px 0px 110px;
+	}
+
+	#audioColumn h1 {
+		margin: 0px 0px 0px 0px;
+		font-style: normal;
+		font-family: georgia;
+		color: white;
+		padding: 15px 0px 0px 112px;
+	}
+
+	div#photoColumn {
+		position: relative;
+		float: left;
+		height: 325px;
+		width: 326px;
+		list-style-type: none;
+		background-color: rgb(90,90,90);		
+	}
+	
+	div#videoColumn {
+		position: relative;
+		float: left;
+		height: 325px;
+		width: 327px;
+		list-style-type: none;
+		background-color: rgb(90,90,90);	
+		margin: 0px 10px;
+	}
+	
+	div#audioColumn {
+		position: relative;
+		float: left;
+		height: 325px;
+		width: 327px;
+		list-style-type: none;
+		background-color: rgb(90,90,90);		
+	}
+	
+	/* Rollover code below is subverted using the HTML because I couldn't figure out the proper code to link the pages */
+	
+	div.mediaButton1 {
+		width: 300px;
+		height: 250px;
+		margin: 0px 0px 0px 10px;
+		border: solid;
+		border-color: black;
+		background-image: url("../images/galleryimages/album_buttons.jpg");
+		background-position: 0px 0px;
+	}
+	
+	div.mediaButton1:hover {
+		background-image: url("../images/galleryimages/album_buttons.jpg");
+		background-position: 0px -250px;
+	}
+
+	div.mediaButton2 {
+		width: 300px;
+		height: 250px;
+		margin: 0px 0px 0px 10px;
+		border: solid;
+		border-color: black;
+		background-image: url("../images/galleryimages/camcorder_buttons.jpg");
+		background-position: 0px 0px;
+	}
+
+	div.mediaButton2:hover {
+		background-image: url("../images/galleryimages/camcorder_buttons.jpg");
+		background-position: 0px -250px;
+	}
+	
+	div.mediaButton3 {
+		width: 300px;
+		height: 250px;
+		margin: 0px 0px 0px 10px;
+		border: solid;
+		border-color: black;
+		background-image: url("../images/galleryimages/audio_buttons.jpg");
+		background-position: 0px 0px;
+	}
+
+	div.mediaButton3:hover {
+		background-image: url("../images/galleryimages/audio_buttons.jpg");
+		background-position: 0px -250px;
+	}
+	
+	
+	/* Image Gallery Page with the different photo album options ================================*/
+	
+	div#imageGalleries {
+		float: left;
+		background-image: url();
+		background-color: rgb(90,90,90);
+		border: none;
+		margin: 0px 0px 0px 0px;
+		padding: 20px 0px 0px 10px;
+	}
+	
+		div#imageGalleries h1{
+		color: white;
+		margin: 0px 0px 0px 380px;
+		padding: 0px;
+	}
+	
+	div#imageGalleries ul {
+		padding: 0px 0px 0px 0px;
+	}
+	
+	div#imageGalleries li {
+		display: inline-block;
+		font-family: helvetica;
+		font-size: 15px;
+	}
+	
+	li.gallery1 {
+		height: 94px;
+		width: 200px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 18px;
+		border: 3px solid black;	
+		color: white;
+		font-style: bold;
+		}
+
+	.gallery1 a:link {
+		list-style-type: none;
+		text-decoration: none;	
+		}
+
+	li.gallery2 {
+		height: 94px;
+		width: 200px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;	
+		color: white;
+		font-style: bold;
+		}
+	
+	li.gallery3 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;	
+		color: white;
+		font-style: bold;
+		}
+	
+	li.gallery4 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;	
+		color: white;
+		font-style: bold;
+		}
+	
+	li.gallery5 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 18px;
+		border: 3px solid black;
+		color: white;
+		font-style: bold;
+		}
+
+	li.gallery6 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;
+		color: white;
+		font-style: bold;
+		}
+	
+	li.gallery7 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;
+		color: white;
+		font-style: bold;
+		}
+	
+	li.gallery8 {
+		height: 94px;
+		padding: 0px 0px 20px 0px;
+		margin: 0px 0px 25px 30px;
+		border: 3px solid black;	
+		color: white;
+		font-style: bold;
+		}
+		
+/* John and Joelle Wedding Album functional wedding image gallery=================================*/
+
+	div#galleryContent {
+		float: left;
+		width: 1000px;
+		height: 820px;
+		background-image: url("../images/backgrounds/album_background.jpg");
+		border: none;	
+	}
+
+	div#galleryContent h3 {
+		margin: 16px 0px 0px 111px;
+		color: rgb(160,160,160);
+	}
+	
+	ul.galleryNav {
+		position: relative;
+		float: left;
+		width: 129px;
+		height: 704px;
+		padding: 10px 0px 0px 15px;
+		margin: 16px 0px 30px 30px;
+		background-color: rgb(80,80,80); 
+		list-style-type: none;
+		border: solid;
+		border-color: rgb(120,120,120);
+	}
+	
+	ul.galleryNav2 {
+		position: relative;
+		float: left;
+		left: 15px;
+		width: 129px;
+		height: 700px;
+		padding: 10px 0px 4px 15px;
+		list-style-type: none;
+		border: solid;
+		background-color: rgb(80,80,80); 
+		border-color: rgb(120,120,120);
+		z-index: 60;
+	}	
+
+	.galleryNav li:link {
+		width: 115px;
+		height: 66px;
+		border: solid;
+		margin: 10px 0px 0px 0px;
+	}
+	
+	
+	.galleryNav2 li:link {
+		width: 115px;
+		height: 66px;
+		border: solid;
+		margin: 10px 0px 0px 0px;
+		z-index: 100;
+	}
+	
+	
+	.thumbnail span {
+		position: absolute;
+		left: 340px;
+		height: 343px;
+		top: 50px;
+		background-color: rgb(110,110,110);
+		border: transparent;
+		visibility: hidden;
+		color: white;
+		font-size: 22px;
+		font-family: arial;
+		line-height: 1.3em;
+	}
+	
+	.thumbnail:hover span {
+		visibility: visible;
+		z-index: 50;
+	}	
+	
+	.thumbnail2 span {
+		position: absolute;
+		left: 175px;
+		height: 343px;
+		top: 50px;
+		background-color: rgb(110,110,110);
+		border: transparent;
+		visibility: hidden;
+		color: white;
+		font-size: 22px;
+		font-family: arial;
+		line-height: 1.3em;
+	}
+	
+	.thumbnail2:hover span {
+		visibility: visible;
+		z-index: 50;
+	}
+	
+	div.descriptBar {
+		float: left;
+		position: relative;
+		height: 70px;
+		margin: 0px 0px 0px 0px;
+		border: 0px;
+	}
+
+	/* Navigation buttons within the albums ================================================== */
+	
+	#galleryContent li {
+		list-style-type: none;
+	}
+	
+	a#secondNav {
+		float: left;
+		top: 450px;
+		left: 160px;
+		position: relative;
+		width: 118px;
+		height: 33px;
+		background-image: url("../images/navigation/albumnavigationbutton.png");
+		background-position: 0px 0px;
+		z-index: 200;
+	}
+
+	a#secondNav2 {
+		float: left;
+		top: 450px;
+		left: 160px;
+		position: relative;
+		width: 118px;
+		height: 33px;
+		background-image: url("../images/navigation/albumnavigationbutton.png");
+		background-position: 236px 0px;
+		z-index: 200;
+	}
+	
+	a#secondNav3 {
+		float: left;
+		top: 450px;
+		left: 160px;
+		position: relative;
+		width: 118px;
+		height: 33px;
+		background-image: url("../images/navigation/albumnavigationbutton.png");
+		background-position: 118px 0px;
+		z-index: 200;
+	}
+	
+	
+/* The About Us Website Section ============================================================= */
+
+	.topSynopsis {
+		float: left;
+		top: 0px;
+		width: 960px;
+		height: 420px;
+		background-image: url("../images/Backgrounds/about-us_background.jpg");
+		margin: 0px;
+		padding: 15px 20px 0px 20px;
+		line-height: 1.2em;
+	}
+	
+	img.profilePhoto {
+		float: left;
+		border: 2px solid red;
+		margin: 0px 10px 0px 0px;
+		border-radius: 5px;
+	}
+
+
+/* The Contact Us Website Section ============================================================= */
+
+	
+	
+	/*
+	div#formSection {
+		background-color: rgb(50,50,50);
+		padding: 0px 0px 0px 30px;
+		color: white;
+	}
+	
+	div#formSection h1 h2 h3 h4 h5{
+		margin: 0px 0px 0px 90px;
+	}
+	
+	div#formSection form{
+		margin: 0px 0px 0px 0px;
+		width: 60;
+		height: 20;
+	}
+	
+	h2.contactUs {
+		margin: 20p 0px 0px 0px;
+		font-size: 20px;
+	}
+	
+	h2.contactUs {
+		margin: 0p 0px 0px 0px;
+	}	
+	
+	*/
